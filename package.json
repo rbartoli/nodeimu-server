@@ -1,0 +1,27 @@
+{
+  "name": "nodeimu-server",
+  "version": "0.1.0",
+  "description": "A Node.js server for NodeIMU to play with Raspberry Pi + Sense HAT",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "raspberry",
+    "pi",
+    "sense",
+    "hat",
+    "RTIMULib",
+    "IMU",
+    "pressure",
+    "humidity",
+    "temperature"
+  ],
+  "author": "Riccardo Bartoli <info@rblab.com> (http://rblab.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "mongoose": "^4.4.19",
+    "nodeimu": "^2.1.7",
+    "socket.io": "^1.4.6"
+  }
+}
